@@ -58,7 +58,7 @@ function Sidenav({ window, onLogout }) {
       <Divider />
       <List>
         {[
-          { text: "Users", icon: <PeopleIcon />, link: "/users" },
+          { text: "Products", icon: <PeopleIcon />, link: "/users" },
           { text: "Todos", icon: <AssignmentTurnedInIcon />, link: "/todos" },
         ].map(item => (
           <ListItem key={item.text} disablePadding>
@@ -110,7 +110,7 @@ function Sidenav({ window, onLogout }) {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap component="div">
-            Users & Todos
+            Products & Todos
           </Typography>
         </Toolbar>
       </AppBar>
